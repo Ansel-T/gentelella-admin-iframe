@@ -1,0 +1,57 @@
+/* iframe 相关样式 */
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+.h{
+    height: 100%;
+}
+#mainFrameTabs{
+    height: calc(100%);
+    margin-left: 230px;
+    background: #F7F7F7;
+    padding-right: 0;
+}
+.tab-content{
+    height: 100%;
+}
+.bTabs div.tab-content div.tab-pane {
+    height: calc(100% - 120px);
+}
+.bTabs .nav-tabs {
+    padding-left: 10px;
+}
+.bTabs .nav-tabs>li {
+    margin-right: 5px;
+}
+.bTabs .nav-tabs>li>a {
+    padding-top: 6px;
+    padding-bottom:6px;
+    color: #666666;
+}
+.bTabs .nav-tabs>li>a:hover {
+    background: #fff;
+}
+.bTabs button.navTabsCloseBtn {
+    font-size: 23px !important;
+    cursor: pointer;
+    margin: 0;
+    margin-left: 10px;
+    font-style: normal;
+    line-height: 20px;
+    font-family: inherit;
+    font-weight: normal;
+    position: relative;
+    top: -2px;
+    color: #AAAAAA;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    float: right;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+
+}
+/* iframe 相关样式 结束*/
