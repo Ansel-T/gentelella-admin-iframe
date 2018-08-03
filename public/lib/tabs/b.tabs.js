@@ -213,9 +213,9 @@
 	 */
 	function bTabsClose(id){
 		return this.each(function(){
-			if(!id || !title || !url) return;
+			if(!id) return;
 			var $this = $(this),data = $this.data('bTabs');
-			if(data) data.closeTab(id);
+			if(data) data.closeTab( "bTabs_" + id);
 		});
 	}
 
